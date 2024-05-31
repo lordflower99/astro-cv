@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+import cv from '../data/data.json';
+
+---
+<style>
+	.colorete{
+		color: blue;
+	}
+</style>
+<Layout title="Inici">
+
+
+	<h1>CV GUAPARDO</h1>
+
+	<h2 class="colorete">Nom: {cv.personal.nom}<img src="img/tokorotenosuke.jpg" alt="no hay"><br><br>
+		Telefon: {cv.personal.telefon}<br><br>
+		Data de naixement: {cv.personal.data_naixement}<br><br>
+		Adreça: {cv.personal.adreça}<br><br>
+		Població: {cv.personal.població}
+	</h2>
+	
+</Layout>

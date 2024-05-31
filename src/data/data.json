@@ -1,0 +1,45 @@
+{
+    "personal": {
+      "nom": "Marc Florido",
+      "telefon": "+34 123 456 789",
+      "data_naixement": "1999-10-22",
+      "adreça": "Carrer Mossen Cinto Verdaguer, 28, 2n 5e",
+      "població": "Barcelona"
+    },
+    "academic": [
+      {
+        "nom": "BootCamp Python & IA",
+        "data": "2023",
+        "lloc": "Fundació Esplai",
+        "slug": "curs-programació-python-IA"
+      },
+      {
+        "nom": "Grau Mitja de Sistemas Microinformatics i Xarxes",
+        "data": "2019-2022",
+        "lloc": "INS Esteve Terrades i Illa",
+        "slug": "CFGM-Sistemas-microinformatics-xarxes"
+      },
+      {
+        "nom": "CP IFCT Operador de xarxes departamentals",
+        "data": "2021-2022",
+        "lloc": "INS Esteve Terrades i Illa",
+        "slug": "operador-xarxes-departamentals"
+      }
+    ],
+    "laboral": [
+      {
+        "posicio": "Tecnic Informatic",
+        "empresa": "INS Sant Andreu",
+        "data": "2020-2022",
+        "descripcio": ".",
+        "slug": "desenvolupador-de-programari-tech-solutions"
+      }
+    ],
+    "aficions": [
+      "Fer Esport",
+      "Anar a la Platja",
+      "Fer Tours Gastronomics",
+      "Running"
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cv from '../data/data.json';
+import Estudis from '../components/Estudis.astro';
+
+---
+
+<Layout title="ACADEMIC">
+
+	<h1>ACADEMIC</h1>
+
+	<div class="row">
+        {cv.academic.map(estudis => <Estudis dades={estudis} />)}
+
+
+    </div>
+	
+</Layout>

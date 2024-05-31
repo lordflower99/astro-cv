@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+import cv from '../data/data.json';
+
+---
+
+<Layout title="Temps lliure">
+
+
+	<h1>Coses que m'agrada fer</h1>
+
+    <ul>
+        {cv.aficions.map(item => (
+            <li>
+                {item}
+            </li>
+        ))}
+    </ul>
+
+	
+</Layout>
